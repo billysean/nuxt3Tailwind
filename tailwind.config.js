@@ -1,7 +1,7 @@
 module.exports = {
   mode: "jit",
   purge: [
-    "./assets/**/*.{css}",
+    "./assets/**/*.css",
     "./Layouts/*.vue",
     "./components/*.{vue,js}",
     "./components/**/*.{vue,js}",

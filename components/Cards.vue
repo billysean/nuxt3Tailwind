@@ -27,7 +27,7 @@
       </dt>
       <dd class="ml-16 pb-6 flex items-baseline sm:pb-7">
         <p class="text-2xl font-semibold text-gray-900">
-          {{ stat }}
+          {{ stat.Produsen }}
         </p>
         <p
           :class="[
@@ -66,7 +66,7 @@
 
 <script>
 import { ArrowSmDownIcon, ArrowSmUpIcon } from '@heroicons/vue/solid'
-import { CursorClickIcon, MailOpenIcon, UsersIcon } from '@heroicons/vue/outline'
+// import { CursorClickIcon, MailOpenIcon, UsersIcon } from '@heroicons/vue/outline'
 
 // const stats = [
 //   { id: 1, name: 'Total Subscribers', stat: '71,897', icon: UsersIcon, change: '122', changeType: 'increase' },
@@ -92,3 +92,4 @@ export default {
 }
 // console.log(id)
 </script>
+
