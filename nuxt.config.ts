@@ -8,4 +8,8 @@ export default defineNuxtConfig({
         postcssOptions: require("./postcss.config.js"),
       },
     },
+    publicRuntimeConfig: {
+      supabaseURL: process.env.SUPABASE_URL,
+      supabasePublicKey: process.env.SUPABASE_PUBLIC_KEY
+    }
 })

@@ -27,7 +27,7 @@
       </dt>
       <dd class="ml-16 pb-6 flex items-baseline sm:pb-7">
         <p class="text-2xl font-semibold text-gray-900">
-          {{ stat.Produsen }}
+          {{ stat }}
         </p>
         <p
           :class="[
