@@ -1,6 +1,5 @@
 <template>
     <div
-      :key="id"
       class="
         relative
         bg-white
@@ -27,16 +26,16 @@
       </dt>
       <dd class="ml-16 pb-6 flex items-baseline sm:pb-7">
         <p class="text-2xl font-semibold text-gray-900">
-          {{ stat }}
+          {{ stat.qty }}
         </p>
         <p
           :class="[
-            changeType === 'increase' ? 'text-green-600' : 'text-red-600',
+            stat.changeType === 'increase' ? 'text-green-600' : 'text-red-600',
             'ml-2 flex items-baseline text-sm font-semibold',
           ]"
         >
           <ArrowSmUpIcon
-            v-if="changeType === 'increase'"
+            v-if="stat.changeType === 'increase'"
             class="self-center flex-shrink-0 h-5 w-5 text-green-500"
             aria-hidden="true"
           />
@@ -46,9 +45,9 @@
             aria-hidden="true"
           />
           <span class="sr-only">
-            {{ changeType === "increase" ? "Increased" : "Decreased" }} by
+            {{ stat.changeType === "increase" ? "Increased" : "Decreased" }} by
           </span>
-          {{ change }}
+          {{ stat.change }}
         </p>
         <div class="absolute bottom-0 inset-x-0 bg-gray-50 px-4 py-4 sm:px-6">
           <div class="text-sm">
