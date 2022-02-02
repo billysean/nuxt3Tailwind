@@ -79,11 +79,11 @@
             </TransitionChild>
             <div class="flex-shrink-0 px-4 flex items-center">
               <NuxtLink to="/">
-                <img
+                <!-- <img
                   class="h-8 w-auto"
-                  src="../assets/img/Logo_sucofindo.png"
-                  alt="Sucofindo"
-                />
+                  alt="Logo Here"
+                /> -->
+                Logo Here
               </NuxtLink>
             </div>
             <div class="mt-5 flex-1 h-0 overflow-y-auto">
@@ -135,11 +135,11 @@
       >
         <div class="flex-shrink-0 px-4 flex items-center">
           <NuxtLink to="/">
-            <img
+            <!-- <img
               class="h-8 w-auto"
-              src="../assets/img/Logo_sucofindo.png"
-              alt="Sucofindo"
-            />
+              alt="Logo Here"
+            /> -->
+            Logo Here
           </NuxtLink>
         </div>
         <div class="flex-grow mt-5 flex flex-col">
@@ -379,15 +379,12 @@ import {
 import { SearchIcon, UserIcon } from "@heroicons/vue/solid";
 
 const navigation = [
-  { name: "Dashboard", href: "/", icon: HomeIcon, current: true },
-  { name: "E-Manifest", href: "/manifest", icon: FolderIcon, current: false },
-  { name: "Produsen", href: "/produsen", icon: UserIcon, current: false },
-  { name: "Distributor", href: "/distributor", icon: UserIcon, current: false },
-  { name: "Agen", href: "/agen", icon: UserIcon, current: false },
-  { name: "Pengecer", href: "/pengecer", icon: UserIcon, current: false },
-  //   { name: 'Calendar', href: '/', icon: CalendarIcon, current: false },
-  { name: "Hasil Verifikasi", href: "/lhv", icon: InboxIcon, current: false },
-  //   { name: 'LHV', href: '/lhv', icon: ChartBarIcon, current: false },
+  { name: "Dashboard", href: "/dashboard", icon: HomeIcon, current: true },
+  { name: "Blogs", href: "/manifest", icon: FolderIcon, current: false },
+  { name: "Teams", href: "/produsen", icon: UserIcon, current: false },
+    // { name: 'Calendar', href: '/', icon: CalendarIcon, current: false },
+  { name: "Testimonials", href: "/Testimonials", icon: InboxIcon, current: false },
+    { name: 'Promotion', href: '/promotion', icon: ChartBarIcon, current: false },
 ];
 const userNavigation = [
   { name: "Your Profile", href: "/profile" },
