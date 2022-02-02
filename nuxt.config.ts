@@ -8,8 +8,10 @@ export default defineNuxtConfig({
         postcssOptions: require("./postcss.config.js"),
       },
     },
+    // plugins: [{ src: "@/plugins/chartjs.js", ssr: false }],
     publicRuntimeConfig: {
       supabaseURL: process.env.SUPABASE_URL,
       supabasePublicKey: process.env.SUPABASE_PUBLIC_KEY
-    }
+    },
+    
 })
