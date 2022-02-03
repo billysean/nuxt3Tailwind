@@ -384,7 +384,7 @@ const navigation = [
   { name: "Teams", href: "/produsen", icon: UserIcon, current: false },
     // { name: 'Calendar', href: '/', icon: CalendarIcon, current: false },
   { name: "Testimonials", href: "/Testimonials", icon: InboxIcon, current: false },
-    { name: 'Promotion', href: '/promotion', icon: ChartBarIcon, current: false },
+    { name: 'Promotions', href: '/promotions', icon: ChartBarIcon, current: false },
 ];
 const userNavigation = [
   { name: "Your Profile", href: "/profile" },
