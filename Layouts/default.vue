@@ -379,7 +379,7 @@ import {
 import { SearchIcon, UserIcon } from "@heroicons/vue/solid";
 
 const navigation = [
-  { name: "Dashboard", href: "/dashboard", icon: HomeIcon, current: true },
+  { name: "Dashboard", href: "/", icon: HomeIcon, current: true },
   { name: "Blogs", href: "/manifest", icon: FolderIcon, current: false },
   { name: "Teams", href: "/produsen", icon: UserIcon, current: false },
     // { name: 'Calendar', href: '/', icon: CalendarIcon, current: false },

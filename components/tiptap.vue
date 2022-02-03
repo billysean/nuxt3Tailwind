@@ -9,7 +9,11 @@ import StarterKit from '@tiptap/starter-kit'
 const editor = useEditor({
   content: '<p>Type Here !</p>',
   extensions: [
-    StarterKit,
+    StarterKit.configure({
+        heading:{
+            levels:[1,2,3]
+        }
+    }),
   ],
 })
 </script>
