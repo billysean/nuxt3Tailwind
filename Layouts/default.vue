@@ -380,10 +380,10 @@ import { SearchIcon, UserIcon } from "@heroicons/vue/solid";
 
 const navigation = [
   { name: "Dashboard", href: "/", icon: HomeIcon, current: true },
-  { name: "Blogs", href: "/manifest", icon: FolderIcon, current: false },
-  { name: "Teams", href: "/produsen", icon: UserIcon, current: false },
+  { name: "Blogs", href: "/blogs", icon: FolderIcon, current: false },
+  { name: "Teams", href: "/teams", icon: UserIcon, current: false },
     // { name: 'Calendar', href: '/', icon: CalendarIcon, current: false },
-  { name: "Testimonials", href: "/Testimonials", icon: InboxIcon, current: false },
+  { name: "Testimonials", href: "/testimonials", icon: InboxIcon, current: false },
     { name: 'Promotions', href: '/promotions', icon: ChartBarIcon, current: false },
 ];
 const userNavigation = [
