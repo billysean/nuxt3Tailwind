@@ -64,7 +64,7 @@
 </template>
 
 <script>
-import { ArrowSmDownIcon, ArrowSmUpIcon } from '@heroicons/vue/solid'
+import { ArrowSmDownIcon, ArrowSmUpIcon } from '@heroicons/vue/solid/index.js'
 // import { CursorClickIcon, MailOpenIcon, UsersIcon } from '@heroicons/vue/outline'
 
 // const stats = [

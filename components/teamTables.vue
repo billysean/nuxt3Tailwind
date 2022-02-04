@@ -49,35 +49,7 @@
                     tracking-wider
                   "
                 >
-                  Creator
-                </th>
-                <th
-                  scope="col"
-                  class="
-                    px-6
-                    py-3
-                    text-left text-xs
-                    font-medium
-                    text-gray-500
-                    uppercase
-                    tracking-wider
-                  "
-                >
-                  Created Date
-                </th>
-                <th
-                  scope="col"
-                  class="
-                    px-6
-                    py-3
-                    text-left text-xs
-                    font-medium
-                    text-gray-500
-                    uppercase
-                    tracking-wider
-                  "
-                >
-                  Updated Date
+                  Join Date
                 </th>
                 <th
                   scope="col"
@@ -121,13 +93,7 @@
                   <div class="text-sm text-gray-900">{{ blog.title }}</div>
                 </td>
                 <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
-                  {{ blog.creator }}
-                </td>
-                <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
                   {{ blog.joinDate }}
-                </td>
-                <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
-                  {{ blog.updatedDate }}
                 </td>
                 <td class="px-6 py-4 whitespace-nowrap">
                   <span

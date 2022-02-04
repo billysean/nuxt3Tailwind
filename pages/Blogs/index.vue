@@ -28,8 +28,8 @@ import blogsTable from "~/components/blogsTable";
 </template>
 
 <script>
-import { PlusSmIcon as PlusSmIconSolid } from '@heroicons/vue/solid'
-import { PlusSmIcon as PlusSmIconOutline } from '@heroicons/vue/outline'
+import { PlusSmIcon as PlusSmIconSolid } from '@heroicons/vue/solid/index.js'
+import { PlusSmIcon as PlusSmIconOutline } from '@heroicons/vue/outline/index.js'
 
 export default {
   components: {

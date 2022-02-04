@@ -88,10 +88,10 @@
             </div>
             <div class="mt-5 flex-1 h-0 overflow-y-auto">
               <nav class="px-2 space-y-1">
-                <a
+                <NuxtLink
                   v-for="item in navigation"
                   :key="item.name"
-                  :href="item.href"
+                  :to="item.href"
                   :class="[
                     item.current
                       ? 'bg-gray-100 text-gray-900'
@@ -110,7 +110,7 @@
                     aria-hidden="true"
                   />
                   {{ item.name }}
-                </a>
+                </NuxtLink>
               </nav>
             </div>
           </div>
@@ -205,7 +205,7 @@
           </button>
           <div class="flex-1 flex justify-between px-4 md:px-0">
             <div class="flex-1 flex">
-              <form class="w-full flex md:ml-0" action="#" method="GET">
+              <!-- <form class="w-full flex md:ml-0" action="#" method="GET">
                 <label for="search-field" class="sr-only">Search</label>
                 <div
                   class="
@@ -250,10 +250,10 @@
                     name="search"
                   />
                 </div>
-              </form>
+              </form> -->
             </div>
             <div class="ml-4 flex items-center md:ml-6">
-              <button
+              <!-- <button
                 type="button"
                 class="
                   bg-white
@@ -269,7 +269,7 @@
               >
                 <span class="sr-only">View notifications</span>
                 <BellIcon class="h-6 w-6" aria-hidden="true" />
-              </button>
+              </button> -->
 
               <!-- Profile dropdown -->
               <Menu as="div" class="ml-3 relative">

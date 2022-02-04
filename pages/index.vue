@@ -40,5 +40,5 @@ import {
   CursorClickIcon,
   MailOpenIcon,
   UsersIcon,
-} from "@heroicons/vue/outline";
+} from "@heroicons/vue/outline/index.js";
 </script>
